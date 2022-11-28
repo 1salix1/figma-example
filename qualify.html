@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <link href="./assets/styles/all.css" rel="stylesheet">
+
+  <title>Sales Funnel</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/styles/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/styles/new.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="bg-header-blue">
+    <div class=" bg-header-green">
+      <div class="container">
+        <div class=" text-center ">
+          <img class="secure-logo" src="./assets/images/secure.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+
+      <div class="row align-items-center">
+        <div class="col-md-6"><img class="logo-header" src="./assets/images/logo.png" /></div>
+        <div class="col-md-6 text-end">
+          <p class="white-text phone"> <i class="fa-solid fa-phone"></i> 123-234-456</p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+
+  <main>
+
+    <section class="text-center container">
+        <h2 class="s-welcome">Answer These Questions To Qualify For This Discount Now</h1>
+          <div class="questions">
+            <div class="question">
+              <h5>1. How old are you?</h5>
+              <div class="answers">
+                <div class="form_radio_btn">
+                  <input id="radio-1" type="radio" name="age" value="19-24">
+                  <label for="radio-1"><div class="answer-option">A</div>19-24</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-2" type="radio" name="age" value="25-34">
+                  <label for="radio-2"><div class="answer-option">B</div>25-34</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-3" type="radio" name="age" value="35-44">
+                  <label for="radio-3"><div class="answer-option">C</div>35-44</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-4" type="radio" name="age" value="45-54">
+                  <label for="radio-4"><div class="answer-option">D</div>45-54</label>
+                </div>
+                <div class="form_radio_btn">
+                  <input id="radio-5" type="radio" name="age" value="55-64">
+                  <label for="radio-5"><div class="answer-option">E</div>55-64</label>
+                </div>
+                <div class="form_radio_btn">
+                  <input id="radio-6" type="radio" name="age" value="65+">
+                  <label for="radio-6"><div class="answer-option">F</div>65+</label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="question">
+              <h5>2. How many times are you having sex per week now?</h5>
+              <div class="answers">
+                <div class="form_radio_btn">
+                  <input id="radio-7" type="radio" name="sex-per-week" value="No sex now">
+                  <label for="radio-7"><div class="answer-option">A</div>No sex now</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-8" type="radio" name="sex-per-week" value="1-3 times">
+                  <label for="radio-8"><div class="answer-option">B</div>1-3 times</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-9" type="radio" name="sex-per-week" value="3-6 times">
+                  <label for="radio-9"><div class="answer-option">C</div>3-6 times</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-10" type="radio" name="sex-per-week" value="7 or more">
+                  <label for="radio-10"><div class="answer-option">D</div>7 or more</label>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="question">
+              <h5>3. How long do you ideally want to stay hard for?</h5>
+              <div class="answers">
+                <div class="form_radio_btn">
+                  <input id="radio-11" type="radio" name="how-long" value="0 - 30 minutes">
+                  <label for="radio-11"><div class="answer-option">A</div>0 - 30 minutes</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-12" type="radio" name="how-long" value="30 - 60 minutes">
+                  <label for="radio-12"><div class="answer-option">B</div>30 - 60 minutes</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-13" type="radio" name="how-long" value="31 - 2 hours">
+                  <label for="radio-13"><div class="answer-option">C</div>1 - 2 hours</label>
+                </div>
+                 
+                <div class="form_radio_btn">
+                  <input id="radio-14" type="radio" name="how-long" value="Over 2 hours">
+                  <label for="radio-14"><div class="answer-option">D</div>Over 2 hours</label>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="question">
+              <h5>4. Please enter your Email Address.</h5>
+              <div class="answers">
+               <input class="question-input" type="email" name="email">
+
+              </div>
+            </div>
+
+            <div class="question">
+              <h5>5. Please enter your Mobile Number</h5>
+              <div class="answers">
+               <input class="question-input" type="tel" name="phone">
+
+              </div>
+            </div>
+            
+          </div>
+          <div class="terms">
+                <input type="checkbox" class="checkbox-toc"/>  <span class="bolder">I accept <span class="blue-text"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">‘Terms and Conditions’</a></span> & <span class="blue-text"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">‘Privicy Policy’</a></span>.</span></span>
+          </div>
+            <div class="terms">
+                  <p>By clicking "Submit" I agree to the <span class="blue-text"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Terms & Services</a></span> and <span class="blue-text"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Privacy Policy</a></span>. I agree to receive automated Text Messages, Updates, Promotional messages and recommendations from Next Optimal to the phone number I provide.</p>
+            </div>
+          
+          
+
+            <button class="questions-button" type="submit">Submit</button>
+
+    </section>
+
+
+
+
+  </main>
+  
+  <footer class="bg-header-blue">
+    <div class="container text-center">
+
+      <img class="logo-foot" src="./assets/images/logo.png" />
+        <div class=" row align-items-center">
+<div class="col-md-12 footer-links">
+          <a class="footer-a" data-bs-toggle="modal" data-bs-target="#exampleModal">Terms and Conditions</a>
+          <a class="footer-a" data-bs-toggle="modal" data-bs-target="#exampleModal">Privacy Policy</a>
+          <a class="footer-a" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</a>
+
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <img src="./assets/images/terms.svg" />
+            <h4><span>Next Optimal</span><br>Terms & Conditions</h4>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+        </div>
+        <div class="modal-buttons">
+          <button>Decline</button>
+          <button>Accept</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/javascripts/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
